@@ -1,6 +1,6 @@
 {
 	"name": "gol-cli",
-	"version": "0.0.0",
+	"version": "0.0.1",
   "description": "Visualize Conway's game of life from the comfort of your terminal",
 	"license": "MIT",
 	"bin": {
@@ -25,7 +25,8 @@
   ],
 	"files": [
 		"cli.js",
-		"gol.js"
+		"gol.js",
+    "templates.js"
 	],
 	"dependencies": {
 		"immer": "^8.0.0",

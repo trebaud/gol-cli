@@ -13,10 +13,10 @@ $ npm install --global gol-cli
 ## CLI
 
 ```
-$ gol-cli --help
+$ gol --help
 
 	Usage
-	  $ gol-cli
+	  $ gol
 
 	Options
 		--cellColor  Cell color
@@ -24,5 +24,5 @@ $ gol-cli --help
 		--template  Starting pattern (glider, pulsar), default is random
 
 	Examples
-    $ gol-cli --gridBorder=classic --cellColor=magenta --template=pulsar
+    $ gol --gridBorder=classic --cellColor=magenta --template=pulsar
 ```

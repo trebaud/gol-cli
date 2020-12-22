@@ -20,7 +20,7 @@ const OPERATIONS = [
 const generateEmptyGrid = () => {
   const rows = [];
   for (let i = 0; i < numRows; i++) {
-    rows.push(Array.from(Array(numCols), () => Math.random() > 0.8 ? 1 : 0));
+    rows.push(Array.from(Array(numCols), () => Math.random() > 0.9 ? 1 : 0));
   }
 
   return rows;
@@ -33,11 +33,8 @@ const App = () => {
 
   const [running,] = React.useState(true);
 
-  const runningRef = React.useRef(running);
-  runningRef.current = running;
-
   const runSimulation = React.useCallback(() => {
-    if (!runningRef.current) {
+    if (!running) {
       return;
     }
 

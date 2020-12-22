@@ -1,6 +1,7 @@
 # gol-cli
 
 > Visualize Conway's Game of life from the comfort of your terminal
+![](https://user-images.githubusercontent.com/8050949/102924994-99093a00-4460-11eb-98d1-6230d51d2722.gif?raw=true)
 
 
 ## Install
@@ -24,5 +25,5 @@ $ gol --help
 		--template  Starting pattern (glider, pulsar), default is random
 
 	Examples
-    $ gol --gridBorder=classic --cellColor=magenta --template=pulsar
+    $ gol --cellColor=magenta --template=pulsar
 ```

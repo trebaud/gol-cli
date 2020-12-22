@@ -1,6 +1,6 @@
 {
 	"name": "gol-cli",
-	"version": "0.0.1",
+	"version": "0.0.2",
   "description": "Visualize Conway's game of life from the comfort of your terminal",
 	"license": "MIT",
 	"bin": {

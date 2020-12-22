@@ -22,8 +22,13 @@ $ gol --help
 	Options
 		--cellColor  Cell color
 		--bgColor  Background color
-		--template  Starting pattern (glider, pulsar), default is random
+		--template  Starting pattern (glider, pulsar, gosper), default is random
 
 	Examples
     $ gol --cellColor=magenta --template=pulsar
 ```
+
+### Contribution
+
+I'm mainly looking to add new templates, so if you know of a cool new game of life pattern add it to the
+templates file and submit a pull request. Thank you :)

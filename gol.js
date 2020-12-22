@@ -3,8 +3,8 @@ const React = require('react');
 const {Box, Text} = require('ink');
 const { produce } = require('immer');
 
-const numRows = 15;
-const numCols = 30;
+const numRows = 25;
+const numCols = 50;
 
 const OPERATIONS = [
   [0, 1],
@@ -76,8 +76,8 @@ const App = () => {
       {grid.map((rows, i) => (
         <Box key={i}>
           {rows.map((_col, k) => (
-            <Box key={k} borderStyle="single">
-              <Text backgroundColor={grid[i][k] ? 'green' : ''}>{'   '}</Text>
+            <Box key={k}>
+              <Text backgroundColor={grid[i][k] ? 'green' : ''}>  </Text>
             </Box>
           ))}
         </Box>

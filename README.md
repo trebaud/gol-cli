@@ -19,7 +19,9 @@ $ gol-cli --help
     $ gol-cli
 
   Options
-    --name  Your name
+		--cellColor  Cell color
+		--bgColor  Background color
+		--template  Starting pattern (glider, pulsar)
 
   Examples
     $ gol-cli --name=Jane

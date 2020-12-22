@@ -12,11 +12,12 @@ const cli = meow(`
 	  $ gol-cli
 
 	Options
-		--name  Your name
+		--cellColor  Cell color
+		--bgColor  Background color
+		--template  Starting pattern (glider, pulsar), default is random
 
 	Examples
-	  $ gol-cli --name=Jane
-	  Hello, Jane
+    $ gol-cli --gridBorder=classic --cellColor=magenta --template=pulsar
 `);
 
 render(React.createElement(gol, cli.flags));

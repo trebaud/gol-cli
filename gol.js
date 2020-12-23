@@ -5,7 +5,7 @@ const { produce } = require('immer');
 
 const TEMPLATES = require('./templates');
 
-const numRows = 25;
+const numRows = 30;
 const numCols = 50;
 
 const OPERATIONS = [

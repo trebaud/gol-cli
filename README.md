@@ -22,7 +22,7 @@ $ gol --help
 	Options
 		--cellColor  Cell color
 		--bgColor  Background color
-		--template  Starting pattern (glider, pulsar, gosper), default is random
+		--template  Starting pattern (glider, pulsar, gosper, conway), default is random
 
 	Examples
     $ gol --cellColor=magenta --template=pulsar

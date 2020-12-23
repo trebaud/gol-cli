@@ -14,7 +14,7 @@ const cli = meow(`
 	Options
 		--cellColor  Cell color
 		--bgColor  Background color
-		--template  Starting pattern (glider, pulsar), default is random
+		--template  Starting pattern (glider, pulsar, gosper, conway), default is random
 
 	Examples
     $ gol-cli --gridBorder=classic --cellColor=magenta --template=pulsar
